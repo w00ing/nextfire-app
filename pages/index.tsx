@@ -25,7 +25,7 @@ export async function getServerSideProps(context) {
 
 export default function Home(props) {
   const [posts, setPosts] = useState(props.posts);
-  console.log(props);
+  // console.log(props);
   const [loading, setLoading] = useState(false);
 
   const [postsEnd, setPostsEnd] = useState(false);
